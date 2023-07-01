@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap');
+
+body {
+    background-color: #F3EBE4;
+}
+
+main {
+    width: 250px;
+    height: 250px;
+}
+
+.imagem-produto{
+    width: 250px;
+    height: 350px;
+    border-radius: 15px ;
+}
+
+.imagem {
+    position: relative;
+    right: 0;
+    display: inline;
+}
+
+.info-principal {
+    display: inline;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.descricao-do-produto {
+    font-size: 16px;
+}
+
+.info-produto {
+    background-color: #fff;
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.produto {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+    margin-top: 20px ;
+    margin-left: 25px;
+    text-align: left;
+}
+
+.nome-do-produto {
+    font-family: 'Fraunces', serif;
+    font-size: 24px;
+    text-align: left;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.descricao-do-produto {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.6);
+    padding-top: 10px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.precos{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.precos .preco-desconto {
+    font-family: 'Fraunces', serif;
+    font-size: 25px;
+    color: hsl(158, 36%, 37%)  ;
+}
+
+.precos .preco-original {
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+    margin-top: 8px;
+    margin-left: 0;
+}
+
+.btn {
+    background-color: hsl(158, 36%, 37%);
+    width: 200px;
+    height: 40px;
+    border-radius: 5px ;
+    border: none;
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
+.btn .carrinho-de-compras {
+    height: 14px;
+    padding-right: 10px ;
+}
