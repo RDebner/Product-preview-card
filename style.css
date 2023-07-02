@@ -93,6 +93,8 @@ main {
     font-size: 12px;
     margin-top: 8px;
     margin-left: 0;
+    position: relative;
+    right: 50px;
 }
 
 .btn {
@@ -141,6 +143,18 @@ main {
     }
 
     .precos {
-        text-align: left;
+        position: relative;
+        right: 20px;
+
+    }
+
+    .preco-original {
+        position: relative;
+        right: 70px;
+    }
+    .btn {
+        width: 260px;
+        margin-left: 20px;
+        margin-top: 15px;
     }
 }
