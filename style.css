@@ -139,4 +139,8 @@ main {
         border-top-right-radius: 0;
         border-bottom-left-radius: 10px;
     }
+
+    .precos {
+        text-align: left;
+    }
 }
